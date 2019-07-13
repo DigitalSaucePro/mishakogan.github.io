@@ -1,8 +1,6 @@
----
-title: Relativity Trace Documentation
----
+Relativity Trace Documentation
+================================
 
-  * [title: Relativity Trace Documentation](#title--relativity-trace-documentation)
 - [Introduction to Relativity Trace](#introduction-to-relativity-trace)
 - [Prerequisites](#prerequisites)
     + [Agents:](#agents-)
@@ -52,7 +50,7 @@ title: Relativity Trace Documentation
 - [Appendix B: Trace Document Extraction Fields](#appendix-b--trace-document-extraction-fields)
 - [Appendix C: Create Email Fields Map Integration Point Profile](#appendix-c--create-email-fields-map-integration-point-profile)
 
-**Please contact trace\@relativity.com with any questions**
+**Please contact trace@relativity.com with any questions**
 
 | **Trace Version** | **Release Date** | **Release Notes** | **Relativity Compatibility** |
 |-------------------|------------------|-------------------|------------------------------|
