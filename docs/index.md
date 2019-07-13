@@ -4,8 +4,8 @@ Relativity Trace Documentation
 - [Release Notes](#release-notes)
 - [Introduction to Relativity Trace](#introduction-to-relativity-trace)
 - [Prerequisites](#prerequisites)
-    + [Agents:](#agents-)
-    + [Applications:](#applications-)
+    + [Agents](#agents)
+    + [Applications](#applications)
 - [Setting up Relativity Trace](#setting-up-relativity-trace)
 - [Trace Document Flow Overview](#trace-document-flow-overview)
   * [Error Resolution Workflow and Retry](#error-resolution-workflow-and-retry)
@@ -130,7 +130,7 @@ Prerequisites
 Ensure the default Relativity infrastructure has been setup and operational. In
 addition, Relativity Trace utilizes the following components for its processes:
 
-### Agents:
+### Agents
 
 -   dtSearch Index Manager
 
@@ -173,7 +173,7 @@ agents are set up:
     Analytics](https://help.relativity.com/9.6/Content/Relativity/Analytics/Structured_analytics_set_tab.htm)
     first)
 
-### Applications:
+### Applications
 
 -   [Relativity Integration
     Points](https://platform.relativity.com/9.6/Content/Relativity_Integration_Points/Get_started_with_integration_points.htm?)
