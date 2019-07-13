@@ -50,64 +50,52 @@ Relativity Trace Documentation
 - [Appendix B: Trace Document Extraction Fields](#appendix-b--trace-document-extraction-fields)
 - [Appendix C: Create Email Fields Map Integration Point Profile](#appendix-c--create-email-fields-map-integration-point-profile)
 
-**Please contact trace@relativity.com with any questions**
+> Please contact trace@relativity.com with any questions!
 
-| **Trace Version** | **Release Date** | **Release Notes** | **Relativity Compatibility** |
-|-------------------|------------------|-------------------|------------------------------|
-| 11.2.9.2          | 15 July 2019     | **New Features**  | \> 9.6.202.10                |
+Release Notes
+================================
+**Trace Version**: 11.2.9.2
+**Release Date**: 15 July 2019
+ **Relativity Compatibility**: \> 9.6.202.10
 
+**New Features**
 -   BIST auto-run automation
-
 -   In production, you can dedicate a workspace for continuous integration
     testing and enable automatic execution of tests ensuring the infrastructure
     is in good shape
-
 -   Full configuration of tasks, actions, data sources is now formally exposed
     via custom field store UI
 
 **Enhancements**
-
 -   BIST now includes additional coverage and verification
-
 -   Reporting task now utilizes kCura.Notification encrypted instance settings
     for email configuration
-
 -   Email (alert) action now utilizes kCura.Notification encrypted instance
     settings for email configuration
-
 -   Data Sources now report transient errors directly on the object and not
     generate data batches with errors - this reduces manual involvement with
     resolving data batch errors
-
 -   Various performance optimizations for workspaces with large number of
     documents
-
 -   Additional metrics surrounding data retrieval and extraction process are now
     added as part of Telemetry reporting
-
 -   Globanet data sources configuration for monitored individuals is now
     streamlined via CSV file
 
 **Defect Fixes**
-
 -   Excessive accumulation of .net threads (resources) during Trace Exchange
     data retrieval process
-
 -   Embedded attachments inside of MS Office files and other containers are now
     correctly extracted
-
 -   Addressed feedback from security penetration testing
 
 **Deprecated**
-
 -   Trace Office 365 data source (based on GraphAPI) is deprecated. Use Trace
     Exchange data source instead
 
 **Upgrade Considerations**
-
 -   In order to enable BIST on the workspace you need to update
     TraceWorkspaceSettings instance setting
-
 -   Data Sources with Fileshare source path configurations are now explicitly
     validated to be within the workspace Fileshare bounds. You must adjust the
     Source Path settings for each impacted data source to be relative folder
