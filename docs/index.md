@@ -1,6 +1,7 @@
 Relativity Trace Documentation
 ================================
 
+- [Release Notes](#release-notes)
 - [Introduction to Relativity Trace](#introduction-to-relativity-trace)
 - [Prerequisites](#prerequisites)
     + [Agents:](#agents-)
@@ -54,6 +55,7 @@ Relativity Trace Documentation
 
 Release Notes
 ================================
+
 **Trace Version:** 11.2.9.2
 
 **Release Date:** 15 July 2019
