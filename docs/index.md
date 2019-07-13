@@ -54,9 +54,12 @@ Relativity Trace Documentation
 
 Release Notes
 ================================
-**Trace Version**: 11.2.9.2
-**Release Date**: 15 July 2019
- **Relativity Compatibility**: \> 9.6.202.10
+**Trace Version:** 11.2.9.2
+
+**Release Date:** 15 July 2019
+
+**Relativity Compatibility:** > 9.6.202.10
+
 
 **New Features**
 -   BIST auto-run automation
