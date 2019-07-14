@@ -1130,26 +1130,19 @@ in the Reporting task Settings. See below sample configuration for example.
 
 Sample Notification Configurations (on Reporting task)
 
-**{**
-
-"Reports"**: [{**
-
-"Name"**:** "SystemHealthAlerts"**,**
-
-"Recipients"**:**
-"misha.kogan\@relativity.com;nikita.solilov\@relativity.com;jordan.domash\@relativity.com"**,**
-
-"IncludeDetails"**: true,**
-
-"FrequencyInMinutes"**:** "60",
-
-"EmailFrom": "tracealerts\@relativity.com"
-
-**}**
-
-**]**
-
-**}**
+```json
+{
+  "Reports": [
+    {
+      "Name": "SystemHealthAlerts",
+      "Recipients": "misha.kogan@relativity.com;nikita.solilov@relativity.com;jordan.domash@relativity.com",
+      "IncludeDetails": true,
+      "FrequencyInMinutes": "60",
+      "EmailFrom": "tracealerts@relativity.com"
+    }
+  ]
+}
+```
 
 -   **Name:** Do not change
 
