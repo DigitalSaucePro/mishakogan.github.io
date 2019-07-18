@@ -56,7 +56,7 @@ Relativity Trace Documentation
 Release Notes
 ================================
 
-**Trace Version:** 11.3.9.2
+**Trace Version:** 11.2.9.2
 
 **Release Date:** 15 July 2019
 
