@@ -1489,3 +1489,5 @@ your library, reach out to trace\@relativity.com
 **NOTE:** You can edit the Integration Point Profile settings at any time,
 however existing completed Data Batches will not automatically re-import the
 data with new settings/mappings.
+
+END OF DOCUMENTATION
